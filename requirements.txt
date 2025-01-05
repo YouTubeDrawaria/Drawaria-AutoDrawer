@@ -1,0 +1,23 @@
+Here’s the content for the `requirements.txt` file, which lists all the dependencies required to run the Drawaria AutoDrawer application:
+
+```plaintext
+Pillow==10.0.0
+numpy==1.24.3
+pyautogui==0.9.54
+keyboard==0.13.5
+```
+
+### Explanation of Dependencies:
+1. **Pillow**: Used for image processing and manipulation.
+2. **numpy**: Used for handling image data as arrays.
+3. **pyautogui**: Used for automating mouse movements and clicks.
+4. **keyboard**: Used for detecting key presses (e.g., `Esc` to interrupt the drawing process).
+
+### How to Use:
+1. Save the above content in a file named `requirements.txt` in the root directory of your project.
+2. Install the dependencies by running:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+This will ensure all required libraries are installed and ready for the application to run.
